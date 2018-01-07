@@ -14,3 +14,8 @@ service { 'httpd':
 package { 'httpd':
   ensure => installed,
 }
+
+file { '/tmp/zyz':
+  ensure => file,
+  mode => '0644',
+}
