@@ -15,7 +15,7 @@ package { 'httpd':
   ensure => installed,
 }
 
-file { '/tmp/zyz':
+file { '/tmp/abc.xyz':
   ensure => file,
   mode => '0644',
 }
